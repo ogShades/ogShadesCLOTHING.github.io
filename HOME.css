@@ -389,6 +389,11 @@ right: 7px;}
 
 @media (min-width: 820px) and (max-width: 1020px){
 
+
+
+    .Benifits{
+        flex-direction: column;
+    }
     .cardsMAIN{
         display: flex;
         flex-wrap: wrap;
@@ -780,3 +785,348 @@ right: 7px;}
 
 }
 
+
+
+/* For Smaller Screens */
+
+@media (max-width: 320px){
+
+    .txt-start{
+        text-align: center;
+        padding: 0;
+        
+    }
+    
+    .shde{font-family: M1}
+    
+    .txt-start h1{
+        font-size: 40px;
+    
+        color: white;
+        
+       
+    }
+    .txt-start p{
+        font-size: 13px;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 38px 51px 10px 51px;
+    }
+    .btn-start{
+        border-radius: 9px;
+        background-color: white;
+        padding: 5px 30px 5px 30px;
+        transition: 0.3s;
+        border: none;
+    }
+    
+    .btn-start:hover{background-color: brown;
+    color: white;}
+    
+    /* BENIFITS */
+    .Benifits{
+        display: flex;
+        padding-bottom: 26px;
+        flex-direction: column;}
+
+    .b1{
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        border-right: none;
+        border-bottom: 2px solid white;
+        color: white;
+        padding: 54px 3px 20px 11px;
+        flex-direction: row;}
+
+    #b1-con{
+        color: white;
+        font-size: 45px;
+    }
+    
+    /* PRODUCTS STARTS HERE*/
+    .prdSTRIPE{
+        background-image: url(./IMGS/MKTriangleFinal-171.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 30px;
+        box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+        padding-top: 84px;}
+    
+    
+    
+    .prdcSTRIPE2{
+    padding-top: 130px;
+    padding-bottom: 50px;}
+    .inFTR{
+        font-size: 50px;
+        text-align: center;
+        color: white;
+        position: relative;
+        top: 35px;}
+    .bg-PRDC{
+        text-align: center;
+        font-size: 45px;
+        position: absolute;
+        top: 153%;
+        right: 0;
+        left: 0;
+        font-family: M1;
+        letter-spacing: 18px;
+        color: #ffffff1f;
+    }
+    .bg-PRD{
+        
+        text-align: center;
+        font-size: 45px;
+        position: absolute;
+        top: 381%;
+        right: 0px;
+        left: 0px;
+        font-family: M1;
+        letter-spacing: 18px;
+        color: #ffffff1f;
+        
+    }
+    .bg-PRDD{
+        text-align: center;
+        font-size: 54px;
+        position: absolute;
+        top: 715%;
+        right: 5px;
+        left: 48px;
+        font-family: M1;
+        letter-spacing: 40p}
+    
+    
+    
+    .inPRDC{
+        font-size: 29px;
+        text-align: center;
+        color: white;
+        position: relative;
+        letter-spacing: 20px;
+        top: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    /* CARDS */
+    .cardsMAIN{
+        display: flex;
+        justify-content: center;
+        gap: 45px;
+        padding-top: 130px;
+        flex-direction: column;
+    }
+    .cardALLIGN{
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        flex-direction: column;}
+    
+    .cardALLIGN2{
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+        flex-direction: column;}
+    
+    .imgBOX{
+        width: 290px;
+        position: relative;
+        transition: transform 0.3s ease;
+    }
+    .imgBOX img{
+        width: 58%;
+        height: 100%;
+        border-radius: 20px;}
+    
+    .desc{
+        /* text-align: center; */
+        padding-top: 19px;
+        color: white;}
+    
+    .desc p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    
+    .cart{
+        position: absolute;
+        width: 200px;
+        top: 126px;
+        right: 40px;
+        opacity: 0;
+        transition: 0.3s;}
+    
+        .card1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;}
+    
+    .card1:hover .cart{opacity: 1;}
+      .card1:hover .imgBOX {
+        transform: scale(1.05); /* Scale the imgBOX element by 5% on hover */
+      }
+      
+    /*Best Sellers */
+    
+    .cardsMAIN2{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;}
+    
+    .cardsMAINALLIGN{
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+    
+    .beni-txt h3{ font-size: 18px;}
+    .beni-txt p{ font-size: 10px;}
+
+    .imgBBOXM{
+        width: 280px;
+        transition: 0.3s;}
+    
+    .imgBBOXM img{width: 60%;}
+    
+    .imgBBOXM:hover{scale: 1.1;}
+    
+    .cardB2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardB1{
+        text-align: center;}
+    
+    .cardB1:hover + .cardsALLIGNCOLUMN .cardB2,
+    .cardB1:hover .cardB2 {
+        margin-left: 20px; 
+    }
+    
+    
+    .imgBBOX {width: 129px; transition: 0.3s;}
+    .imgBBOX:hover{scale: 1.1;}
+    .imgBBOX img{width: 118%;}
+    
+    .cardMAINALLIGN2{
+        display: flex;
+        gap: 19px;
+        flex-direction: column;}
+    
+    .cardMAINALLIGN3{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;}
+    .cardsALLIGNCOLUMN{display: flex; flex-direction: column;}
+    
+    .descB{
+        padding-top: 30px;
+        color: white;
+        text-align: center;
+        font-size: 20px;}
+    .descB p{ 
+    color: white;
+    }
+    
+    /* VIEW BTN */
+    
+    .viewall{ text-align: center;}
+    .viewall button{ border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    transition: 0.3s;
+    border: none;
+    font-size: 25px;}
+    .viewall button:hover{background-color: brown;;
+    color: white; border: 1px solid white; letter-spacing: 5px;}
+    
+    /* VIDEO */
+    .bg-PRDC2{
+        text-align: center;
+        font-size: 155px;
+        position: absolute;
+        right: 35%;
+        font-family: M1;
+        letter-spacing: 30px;
+        color: #c8414138;}
+    .inPRDC2{ 
+        font-size: 29px;
+        text-align: center;
+        color: white;
+        position: relative;
+        letter-spacing: 20px;
+        top: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    
+    .video-box{width: 1500px;}
+    .video-box video{width: 100%;}
+    .videoMAIN{
+        display: flex;
+        justify-content: center;}
+    
+    /* FOOTER */
+    .footer-main{ 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;}
+        
+    .img-footer{width: 300px; text-align: center;}
+    .img-footer img{width: 100%;}
+    
+    .footer-text{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        flex-direction: column;}
+
+    .footer-logos i{border-right: 0px solid white;
+        padding-right: 0px; border-bottom: solid;
+        padding-bottom: 30px;}
+
+    .footer-logos{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        font-size: 25px;
+        padding-top: 20px;
+        flex-direction: column;}
+    
+    .line{
+        width: 100%;
+        border: none;
+        height: 1px; 
+        background-color: white;
+    }
+    
+    .copy{
+        text-align: center;
+        color: white;
+        letter-spacing: 2px;
+        font-size: 10px;
+        padding-top: 30px;}
+    
+
+}
+
+@media (min-width: 430px) and (max-width: 480px){
+
+    .card1{align-items: center;}
+
+    .imgBOX img{
+        width: 66%;
+    }
+    .bg-PRDC{
+        top: 150%;
+    }
+    
+    .imgBBOXM {
+        width: 385px;
+    }
+    .bg-PRD{
+        top: 387%;
+    }
+    .bg-PRDD{
+        top: 696%;
+    }
+}
