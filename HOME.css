@@ -627,10 +627,11 @@ right: 7px;}
     .desc p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
     
     .cart{
+        
         position: absolute;
         width: 200px;
-        top: 126px;
-        right: 40px;
+        top: 149px;
+        right: 69px;
         opacity: 0;
         transition: 0.3s;}
     
@@ -806,6 +807,8 @@ right: 7px;}
         
        
     }
+
+    
     .txt-start p{
         font-size: 13px;
         color: white;
@@ -950,7 +953,7 @@ right: 7px;}
     .cart{
         position: absolute;
         width: 200px;
-        top: 126px;
+        top: 83px;
         right: 40px;
         opacity: 0;
         transition: 0.3s;}
@@ -1110,6 +1113,17 @@ right: 7px;}
 }
 
 @media (min-width: 430px) and (max-width: 480px){
+
+
+    .cart{
+        
+        position: absolute;
+        width: 200px;
+        top: 126px;
+        right: 69px;
+        opacity: 0;
+        transition: 0.3s;
+    }
 
     .card1{align-items: center;}
 
